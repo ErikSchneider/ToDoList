@@ -38,7 +38,8 @@ public class Main {
                 checkBox = "[X]";
 
             }
-            System.out.println(i + ". " + toDoItem.text + checkBox);
+            // System.out.println(i + ". " + toDoItem.text + checkBox);  line below is the same thingwith string Formatting
+            System.out.printf("%s %s. %s\n", checkBox, i, toDoItem.text);
             i++;
         }
 
